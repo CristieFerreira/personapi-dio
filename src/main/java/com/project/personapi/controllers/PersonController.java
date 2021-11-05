@@ -1,9 +1,8 @@
-package com.project.personapi.controller;
+package com.project.personapi.controllers;
 
 import com.project.personapi.dto.request.PersonDTO;
 import com.project.personapi.dto.response.MessageResponseDTO;
-import com.project.personapi.entity.Person;
-import com.project.personapi.service.PersonService;
+import com.project.personapi.services.PersonService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

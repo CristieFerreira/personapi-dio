@@ -1,4 +1,4 @@
-package com.project.personapi.entity;
+package com.project.personapi.entities;
 
 import java.time.LocalDate;
 import java.util.List;

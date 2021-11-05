@@ -1,10 +1,10 @@
-package com.project.personapi.service;
+package com.project.personapi.services;
 
 import com.project.personapi.dto.request.PersonDTO;
 import com.project.personapi.dto.response.MessageResponseDTO;
-import com.project.personapi.entity.Person;
+import com.project.personapi.entities.Person;
 import com.project.personapi.mapper.PersonMapper;
-import com.project.personapi.repository.PersonRepository;
+import com.project.personapi.repositories.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
