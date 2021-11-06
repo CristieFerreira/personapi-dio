@@ -5,6 +5,7 @@ import com.project.personapi.dto.response.MessageResponseDTO;
 import com.project.personapi.exeption.PersonNotFoundException;
 import com.project.personapi.services.PersonService;
 
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -14,15 +15,11 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/people")
+@AllArgsConstructor(onConstructor = @__(@Autowired))
+//serve para substituir o construtor, e faz a injeção de dependencias
 public class PersonController {
 
-
     private PersonService personService;
-
-    @Autowired
-    public PersonController(PersonService personService) {
-        this.personService = personService;
-    }
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
