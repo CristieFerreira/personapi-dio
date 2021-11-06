@@ -10,7 +10,6 @@ Foram desenvolvidos os seguintes tópicos:
 * Desenvolvimento de operações de gerenciamento de usuários (Cadastro, leitura, atualização e remoção de pessoas de um sistema)
 * Relação de cada uma das operações acima com o padrão arquitetural REST, e a explicação de cada um dos conceitos REST envolvidos durante o desenvolvimento do projeto
 * Desenvolvimento de testes unitários para validação das funcionalidades
-* Implantação do sistema na nuvem através do Heroku
 
 
 Para executar o projeto no terminal, digite o seguinte comando: 
